@@ -7618,6 +7618,14 @@ grid-column: auto;
         height: 250px !important
     }
 
+        .u-xs-height300 {
+        height: 300px !important
+    }
+
+        .u-xs-height320 {
+        height: 320px !important
+    }
+
     .u-xs-height350 {
         height: 350px !important
     }
