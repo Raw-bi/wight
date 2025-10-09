@@ -32116,6 +32116,11 @@ body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .m
 }
 
 
+p.graf.graf--p.lang-en.has-dropcap.graf--leading {
+    margin-top: -.8em;
+}
+
+
 @media (max-width: 767px) {
     .graf--title.lang-en {
         font-size: 47px;
@@ -32124,11 +32129,6 @@ body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .m
     .graf--h4.lang-en {
         font-size: 36px;
     }
-
-.graf--p.lang-en.has-dropcap::first-letter {
-    font-size: 5.3rem;
-    margin-top: -1.5rem
-}
 }
 
 
