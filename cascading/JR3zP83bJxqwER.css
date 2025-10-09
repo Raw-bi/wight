@@ -31200,7 +31200,7 @@ svg.icon-premium-star {
 
 .hedgerows {
     display: block;
-    background: linear-gradient(hsla(0, 0%, 100%, 0), #fff);
+    background: linear-gradient(hsla(0, 0%, 100%, 0), var(--bg));
     position: relative;
     height: 150px;
     margin-top: -150px;
