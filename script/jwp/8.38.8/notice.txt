@@ -65,7 +65,7 @@ Copyright (c) 2017 video-dev
 https://github.com/video-dev/can-autoplay/blob/v3.0.0/LICENSE
 
 AlloyFinger v0.1.10
-Copyright (c) 2016 è…¾è®¯ AlloyTeam
+Copyright (c) 2016 腾讯 AlloyTeam
 https://github.com/AlloyTeam/AlloyFinger/blob/8135a4d/LICENSE
 
 Chart.js v2.9.4
@@ -109,7 +109,7 @@ The full text of this NOTICE in a location viewable to users of the redistribute
 
 Any pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, the W3C Software and Document Short Notice should be included.
 
-Notice of any changes or modifications, through a copyright statement on the new code or document such as "This software or document includes material copied from or derived from [title and URI of the W3C document]. Copyright Â© [YEAR] W3CÂ® (MIT, ERCIM, Keio, Beihang)."
+Notice of any changes or modifications, through a copyright statement on the new code or document such as "This software or document includes material copied from or derived from [title and URI of the W3C document]. Copyright © [YEAR] W3C® (MIT, ERCIM, Keio, Beihang)."
 
 Disclaimers
 THIS WORK IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENT WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.
