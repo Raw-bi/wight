@@ -8956,7 +8956,6 @@ grid-column: auto;
 .u-contentSansThin {
     font: 300 17px/1.38 var(--tff);
         font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
-        font-variant-ligatures: none;
 }
 
 .v-glyph--m2 .u-contentSansThin {
@@ -12942,7 +12941,6 @@ grid-column: auto;
   transform: translateY(1.52px);
   -webkit-transform: translateY(1.52px); */
     font-feature-settings: "dlig" on, "ss02" on, "ss03" on;
-    font-variant-ligatures: none;
     font: 300 17px/1.2 var(--tff);
 }
 
@@ -15666,8 +15664,7 @@ body.is-swBoot {
     font-weight: 400;
     font-style: normal;
     text-rendering: optimizeLegibility;
-    font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on;
-    font-variant-ligatures: none;
+    font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on
 }
 
 .button:active, .button:focus {
@@ -25542,7 +25539,6 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 .postArticle-content .graf--p {
     font: var(--tf);
     font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
-    font-variant-ligatures: none;
     margin-bottom: 0
 }
 
@@ -26996,7 +26992,6 @@ div[data-block="dynamic-inset"] {
 
 .postArticle-content .graf--p {
     font: var(--tf);
-    font-variant-ligatures: none;
     font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
     /* "dlig" */
 }
@@ -27177,7 +27172,6 @@ div[data-block="dynamic-inset"] {
 .graf--li {
     font: var(--tfw) var(--tfs)/1.48 var(--tff);
     font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
-    font-variant-ligatures: none;
 }
 
 ul.postList>li:before {
@@ -28965,7 +28959,6 @@ section.is-darkBackgrounded .markup--highlight {
 }
 
 .graf--p {
-    font-variant-ligatures: none;
     font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
     /* "dlig" */
 }
@@ -29684,7 +29677,6 @@ section.is-darkBackgrounded .markup--highlight {
 .postArticle--elevate .graf--subtitle, .postArticle--elevate .graf--title {
     /* display: none */
     font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
-    font-variant-ligatures: none;
 }
 
 .postArticle--elevate .graf--pullquote {
