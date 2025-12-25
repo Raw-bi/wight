@@ -1920,7 +1920,7 @@ main {
 }
 
 .u-borderTopRel {
-    border-top: clamp(0.3125rem, 0.2667rem + 0.2037vw, 0.45rem) solid var(--macguffinSec);
+    border-top: clamp(0.3125rem, 0.2667rem + 0.2037vw, 0.45rem) solid rgba(var(--pr-rgb), .76);
 }
 
 .u-borderBottomNormal {
@@ -32353,6 +32353,9 @@ div#progress [id^=SvgjsPath] {
     fill: var(--macguffin);
 }
 
+.u-bgRel {
+    background-color: rgba(var(--macguffin-rgb), .06);
+}
 
 .postMetaInline.u-floatLeft {
     max-width: 90%;
@@ -32684,7 +32687,7 @@ span.svgIcon.Subscribe {
     --macguffin-rgb-l: var(--pr-rgb-l);
     --macguffin-rgb-d: var(--pr-rgb-d);
     --macguffin-rgb: var(--macguffin-rgb-l);
-    --macguffin: rgba(var(--macguffin-rgb), .3);
+    --macguffin: rgba(var(--macguffin-rgb), .24);
     --caing: rgb(var(--caing-rgb));
     --caing-rgb: 53, 76, 155;
     --caing-rgb-d: 95, 116, 192;
