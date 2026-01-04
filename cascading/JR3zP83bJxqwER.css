@@ -1920,7 +1920,7 @@ main {
 }
 
 .u-borderTopRel {
-    border-top: clamp(0.3125rem, 0.2667rem + 0.2037vw, 0.45rem) solid rgba(var(--pr-rgb), .76);
+    border-top: clamp(0.3125rem, 0.2667rem + 0.2037vw, 0.45rem) solid var(--macguffinSec);
 }
 
 .u-borderBottomNormal {
@@ -32353,8 +32353,23 @@ div#progress [id^=SvgjsPath] {
     fill: var(--macguffin);
 }
 
+.macguffin-od {
+    color: var(--macguffin-od);
+    fill: var(--macguffin-od);
+}
+
+.macguffin-ol {
+    color: var(--macguffin-ol);
+    fill: var(--macguffin-ol);
+}
+
+.macguffinSec {
+    color: var(--macguffinSec);
+    fill: var(--macguffinSec);
+}
+
 .u-bgRel {
-    background-color: rgba(var(--macguffin-rgb), .06);
+    background-color: rgba(var(--macguffinSec-rgb), .06)
 }
 
 .postMetaInline.u-floatLeft {
@@ -32684,10 +32699,17 @@ span.svgIcon.Subscribe {
     --pr-rgb-d: 148, 11, 82;
     --pr-rgb: var(--pr-rgb-l);
     --pr: rgb(var(--pr-rgb));
-    --macguffin-rgb-l: var(--pr-rgb-l);
-    --macguffin-rgb-d: var(--pr-rgb-d);
+    --macguffin-rgb-l: 2, 87, 68;
+    --macguffin-rgb-d: 148, 11, 82;
     --macguffin-rgb: var(--macguffin-rgb-l);
-    --macguffin: rgba(var(--macguffin-rgb), .24);
+    --macguffin: rgb(var(--macguffin-rgb));
+    --macguffinSec-rgb-l: var(--pr-rgb-l);
+    --macguffinSec-rgb-d: var(--pr-rgb-d);
+    --macguffinSec-rgb: var(--macguffinSec-rgb-l);
+    --macguffinSec: rgb(var(--macguffinSec-rgb));
+    --macguffin-ol: rgb(var(--macguffin-ol-rgb));
+    --macguffin-ol-rgb: var(--pr-rgb-l);
+    --macguffin-od-rgb: var(--pr-rgb-d);
     --caing: rgb(var(--caing-rgb));
     --caing-rgb: 53, 76, 155;
     --caing-rgb-d: 95, 116, 192;
@@ -32728,7 +32750,8 @@ span.svgIcon.Subscribe {
         --tfw: var(--tfw-d);
         --pr-rgb: var(--pr-rgb-d);
         --macguffin-rgb: var(--macguffin-rgb-d);
-        --macguffin: rgba(var(--macguffin-rgb), .2);
+        --macguffinSec-rgb: var(--macguffinSec-rgb-d);
+        --macguffin-od: rgb(var(--macguffin-od-rgb));
         --bg-2: var(--bg-2-d);
         --bg-3: var(--bg-3-d);
         --tc-bp: var(--pr);
@@ -32754,7 +32777,8 @@ span.svgIcon.Subscribe {
     --tfw: var(--tfw-d);
     --pr-rgb: var(--pr-rgb-d);
     --macguffin-rgb: var(--macguffin-rgb-d);
-    --macguffin: rgba(var(--macguffin-rgb), .2);
+    --macguffinSec-rgb: var(--macguffinSec-rgb-d);
+    --macguffin-od: rgb(var(--macguffin-od-rgb));
     --bg-2: var(--bg-2-d);
     --bg-3: var(--bg-3-d);
     --tc-bp: var(--pr);
