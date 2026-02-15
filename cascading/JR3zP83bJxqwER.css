@@ -239,7 +239,7 @@ body {
     font: var(--tf);
     color: var(--tc);
     text-rendering: optimizeLegibility;
-    text-wrap: pretty;
+    
 }
 
 h1, h2, h3, h4 {
@@ -288,12 +288,12 @@ main {
     display: block
 }
 
-@media screen and (max-device-width: 1000px) {
+/*@media screen and (max-device-width: 1000px) {
     html {
         -webkit-text-size-adjust: none
     }
 }
-
+*/
 @media print {
     h2, h3 {
         page-break-after: avoid;
@@ -2414,6 +2414,12 @@ main {
     order: -1
 }
 
+.u-flexNoWrap {
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+
 
 @media (max-width: 1040px) {
     .u-sm-flex {
@@ -2735,11 +2741,11 @@ main {
 
 
 .u-gridAutoRows {
-    grid-auto-rows: auto; !important; 
+    grid-auto-rows: auto !important; 
 }
 
 .u-gridRowAuto {
-     grid-row: auto; !important; 
+     grid-row: auto !important; 
 }
 
 
@@ -9445,6 +9451,10 @@ grid-column: auto;
     word-wrap: break-word
 }
 
+.u-breakWordAll {
+    word-break: break-all
+}
+
 .u-lineClamp1 {
     display: -webkit-box !important;
     -webkit-line-clamp: 1 !important;
@@ -12704,7 +12714,7 @@ grid-column: auto;
     letter-spacing: -.01em !important;
     /*font-weight: 400!important;*/
     /*font-style: normal!important;*/
-    font-size: 18.2px !important;
+    font-size: 17px !important;
     line-height: 1.38 !important;
     /*-webkit-transform: translateY(1.52px);
   transform: translateY(1.52px)*/
@@ -12728,6 +12738,7 @@ grid-column: auto;
     max-height: 44px !important;
 }
 
+
 @media screen and (max-width: 1040px) {
     .uiScale-ui--small .ui-body.ui-sm-clamp2, .uiScale-ui--small .ui-summary.ui-sm-clamp2 {
         overflow: hidden !important;
@@ -12738,6 +12749,7 @@ grid-column: auto;
         -webkit-box-orient: vertical
     }
 }
+
 
 @media screen and (max-width: 767px) {
     .uiScale-ui--small .ui-body.ui-xs-clamp2, .uiScale-ui--small .ui-summary.ui-xs-clamp2 {
@@ -12758,6 +12770,8 @@ grid-column: auto;
         -webkit-box-orient: vertical
     }
 }
+
+
 
 .uiScale-ui--small .ui-summary.ui-clamp1 {
     overflow: hidden !important;
@@ -12791,7 +12805,7 @@ grid-column: auto;
 @media screen and (max-width: 767px) {
     .uiScale-ui--small .ui-body.ui-xs-clamp3, .uiScale-ui--small .ui-summary.ui-xs-clamp3 {
         overflow: hidden !important;
-        max-height: 60px !important;
+        max-height: unset !important;
         text-overflow: ellipsis !important;
         display: -webkit-box !important;
         -webkit-line-clamp: 3 !important;
@@ -27044,7 +27058,7 @@ div[data-block="dynamic-inset"] {
   line-height: 1.22;
    */
     font: var(--th);
-    font-size: 36px;
+    font-size: 35px;
     letter-spacing: -.028em;
     font-weight: normal;
 }
@@ -27377,7 +27391,7 @@ hr.section-divider:before {
 
 @media all and (max-width: 767px) {
     .postArticle-content .graf--p {
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .graf--h2 {
@@ -27393,7 +27407,7 @@ hr.section-divider:before {
     }
 
     .graf--h4 {
-        font-size: 31px;
+        font-size: clamp(1.75rem, 1.5842rem + 0.7371vw, 1.9375rem);
         /* line-height: 1.22;
       letter-spacing: -.012em */
     }
@@ -27610,7 +27624,7 @@ hr.section-divider:before {
 }
 
 .graf--p.graf-after--blockquote, .postArticle-content .graf--p.graf-after--p, .postList+.graf--p {
-    margin-top: 29px
+    margin-top: 1em
 }
 
 .graf--p.graf-after--h2 {
@@ -28135,9 +28149,9 @@ section.is-imageBackgrounded+section.is-imageBackgrounded {
         margin-top: 30px
     }
 
-    .graf--p.graf-after--blockquote, .postArticle-content .graf--p.graf-after--p, .postList+.graf--p {
+/*    .graf--p.graf-after--blockquote, .postArticle-content .graf--p.graf-after--p, .postList+.graf--p {
         margin-top: 21px
-    }
+    }*/
 
     .graf--p.graf-after--h2 {
         margin-top: 14px
@@ -28967,6 +28981,7 @@ section.is-darkBackgrounded .markup--highlight {
 .graf--p {
     font-variant-ligatures: none;
     font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
+    text-wrap: pretty;
     /* "dlig" */
 }
 
@@ -32685,7 +32700,7 @@ span.svgIcon.Subscribe {
     --tc-bp: var(--bg);
     --tfw: 300;
     --tfw-d: 250;
-    --tfs: 24px;
+    --tfs: 22px;
     --tff: "Matter", "Bi", var(--spart);
     --spart: "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
     --tf: var(--tfw) var(--tfs)/1.6 var(--tff);
