@@ -28981,7 +28981,7 @@ section.is-darkBackgrounded .markup--highlight {
 .graf--p {
     font-variant-ligatures: none;
     font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
-    text-wrap: pretty;
+    /* text-wrap: pretty; */
     /* "dlig" */
 }
 
